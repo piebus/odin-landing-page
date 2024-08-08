@@ -1,12 +1,9 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    /* min-height: 100vh; */
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-/* .layer1, .layer2, .layer3, .layer4, .layer5 {
-    padding-left: 200px;
-} */
 
 ul {
     list-style: none;
@@ -24,10 +21,18 @@ ul {
 .layer1-container {
     display: flex;
     justify-content: space-around;
+    gap: 80px;
+    margin-bottom: 80px;
 }
 
 .image-placeholder{
-    padding: 80px 100px;
+    max-width: 200px;
+    max-height: 100px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: #6e7276;
 }
 
@@ -51,4 +56,13 @@ li {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.sign-up {
+    cursor: pointer;
+    padding: 8px 24px;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 10px;
+    color: #f9faf8;
 }
