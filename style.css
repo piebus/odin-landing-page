@@ -1,9 +1,54 @@
-* {
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    /* min-height: 100vh; */
 }
+
+/* .layer1, .layer2, .layer3, .layer4, .layer5 {
+    padding-left: 200px;
+} */
 
 ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.layer1 {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.layer1-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-placeholder{
+    padding: 80px 100px;
+    background-color: #6e7276;
+}
+
+.layer1 p {
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    display:flex;
+}
+
+li {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
