@@ -103,6 +103,11 @@ a {
     max-width: 100px;
 }
 
+.entry p {
+    font-size: smaller;
+    text-align: center;
+}
+
 .layer3 {
     background-color: #e5e7eb;
     padding: 40px;
@@ -162,4 +167,13 @@ a {
 
 .layer4container .sign-up {
     border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
 }
